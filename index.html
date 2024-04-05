@@ -22,7 +22,7 @@
   <body>
     <header>
       <nav
-        class="navbar navbar-expand-lg bg-body-tertiary"
+        class="navbar navbar-expand-lg bg-body-tertiary "
         data-bs-theme="dark"
       >
         <div class="container-xl">
@@ -39,7 +39,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 justify-content-end">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#home"
                   >Home</a
@@ -58,60 +58,59 @@
     </header>
     <main>
       <!-- Home section -->
-      <section class="banner py-4" id="home">
-        <div class="container-xl bg-dark text-white bg-opacity-100">
-          <h1 class="display-1 pt-4">
-            Let’s Create Fun and Informative Educational Videos.
-          </h1>
+      <section class="banner py-0 position-relative" id="home">
+        <div class="container-xl text-white">
+          <picture>
+            <source srcset="./images/Img_banner_1200_x_800.png" media="(min-width: 1200px)">
+            <source srcset="./images/Img_banner_600_x_399.png" media="(min-width: 600px)">
+            <img src="./images/Img_banner.png" class="img-fluid w-100" alt="...">
+          </picture>
+          <div class="position-absolute top-50 start-50 translate-middle text-center">
+            <h1 class="display-1 pt-4">Let’s Create Fun and Informative Educational Videos.</h1>
+          </div>
         </div>
       </section>
       <!-- Services -->
-      <section id="services" class="container-xl pt-4 pb-2">
+      <section id="services" class="container-xl pt-4 pb-2 ">
         <!-- <div class="container text-center"> -->
-        <h2>Our Services</h2>
+        <h2 class="text-center">Our Services</h2>
         <div class="row g-3">
           <div class="col-12 col-md-6">
             <div class="card rounded-0 border-0">
-              <img
-                src="./images/digital.jpg"
-                class="card-img-top rounded-0"
-                alt=""
-              />
+                <picture>
+                    <source srcset="./images/img_cat-600_x_600.jpg" media="(min-width: 1200px)">
+                    <source srcset="./images/img_cat-300_x_300.jpg" media="(min-width: 600px)">
+                    <img src="./images/img_cat.jpg" class="img-fluid w-100" alt="...">
+                  </picture>
               <div class="card-body bg-secondary">
-                <h3 class="card-title">Digital Transformation</h3>
+                <h3 class="card-title">Creative Activities Based Videos</h3>
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Expedita laudantium cupiditate dicta hic aspernatur ea dolore
-                  nulla possimus earum delectus iste voluptatem cumque quam
-                  exercitationem repellat, quos non, excepturi sunt?
+                    Activities and experiments that encourage children’s creativity and curiosity
                 </p>
                 <a
                   href="#"
-                  class="btn btn-primary rounded-0 w-100 bg-dark border-0 py-3"
-                  >Digital Plans <i class="bi bi-caret-right-fill"></i
+                  class="btn btn-primary rounded-0 w-40 bg-dark border-0 py-3"
+                  >See More <i class="bi bi-caret-right-fill"></i
                 ></a>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-6">
             <div class="card rounded-0 border-0">
-              <img
-                src="./images/marketing.jpg"
-                class="card-img-top rounded-0"
-                alt=""
-              />
+                <picture>
+                    <source srcset="./images/img_f-600_x_600.JPG" media="(min-width: 1200px)">
+                    <source srcset="./images/img_f-300_x_300.JPG" media="(min-width: 600px)">
+                    <img src="./images/img_f.JPG" class="img-fluid w-100" alt="...">
+                  </picture>
               <div class="card-body bg-secondary">
-                <h3 class="card-title">Marketing</h3>
+                <h3 class="card-title">Science and Nature Based Videos</h3>
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Expedita laudantium cupiditate dicta hic aspernatur ea dolore
-                  nulla possimus earum delectus iste voluptatem cumque quam
-                  exercitationem repellat, quos non, excepturi sunt?
+                    inspiring children to explore and discover the mysteries of the natural world.
                 </p>
                 <a
                   href="#"
-                  class="btn btn-primary rounded-0 w-100 bg-dark border-0 py-3"
-                  >Marketing Plans <i class="bi bi-caret-right-fill"></i
+                  class="btn btn-primary rounded-0 w-40 bg-dark border-0 py-3"
+                  >See More <i class="bi bi-caret-right-fill"></i
                 ></a>
               </div>
             </div>
@@ -124,10 +123,10 @@
           <p class="text-uppercase">Ndr Media</p>
           <p>Follow us on social media</p>
           <div class="text-center">
-            <img src="images/Group-1.png" class="rounded" alt="...">
-            <img src="images/Group-2.png" class="rounded" alt="...">
-            <img src="images/Group-3.png" class="rounded" alt="...">
-            <img src="images/Group-4.png" class="rounded" alt="...">
+            <img src="./images/Group-1.png" class="rounded" alt="...">
+            <img src="./images/Group-2.png" class="rounded" alt="...">
+            <img src="./images/Group-3.png" class="rounded" alt="...">
+            <img src="./images/Group-4.png" class="rounded" alt="...">
           </div>
           <p>&copy;Copyright Ndr Media, 2024</p>
         </div>
