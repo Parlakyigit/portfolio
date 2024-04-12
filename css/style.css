@@ -6,11 +6,6 @@
   --bs-dark: rgb(0, 0, 0);
   --bs-dark-rgb: 3, 29, 68;
 }
-/* 
-.banner {
-  background: url(../images/Img_banner.png) no-repeat center;
-  background-size: cover;
-} */
 
 .btn-outline-primary {
   --bs-btn-color: var(--bs-primary);

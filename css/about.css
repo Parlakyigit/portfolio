@@ -1,0 +1,24 @@
+:root {
+  --bs-primary: #b4dfef;
+  --bs-primary-rgb: 255, 255, 255;
+  --bs-secondary: #ffffff;
+  --bs-secondary-rgb: 180, 223, 239;
+  --bs-dark: rgb(0, 0, 0);
+  --bs-dark-rgb: 3, 29, 68;
+}
+
+.navbar-nav .nav-item .active,
+.navbar-nav
+  .nav-link:hover
+  .navbar-nav
+  .nav-link:focus
+  .navbar-nav
+  .nav-link:active {
+  background-color: var(--bs-primary);
+  color: var(--bs-dark);
+}
+
+.bg-body-tertiary {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
