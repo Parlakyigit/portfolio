@@ -33,10 +33,7 @@
 .navbar-nav.nav-link {
   color: var(--bs-primary);
 }
-/* .navbar-nav .nav-link:hover{background-color:var(--bs--primary) ;
-    --bs-btn-disabled-border-color:var(--bs-primary )
 
-} */
 
 .navbar-nav .nav-item .active,
 .navbar-nav
