@@ -50,4 +50,24 @@
 }
 
 /* Media query for iPad Mini screen width range */
+@media (min-width: 768px) {
+  #userName,
+  #exampleInputEmail1 {
+    width: calc(40% - 3px);
+    margin-right: 16px;
+    margin-bottom: 8px;
+    display: inline-block;
+  }
 
+  #message {
+    width: calc(100% - 16px);
+    margin-right: 16px;
+    margin-bottom: 8px;
+    display: inline-block;
+  }
+
+  iframe {
+    width: 100%;
+    margin-top: 16px;
+  }
+}
