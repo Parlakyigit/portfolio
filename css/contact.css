@@ -48,16 +48,6 @@
   --bs-btn-disabled-bg: var(--bs-secondary-rgb);
   --bs-btn-disabled-border-color: #212529;
 }
-@media only screen and (max-width: 768px) {
-  /* Aligning email and name input fields side by side */
-  #userName,
-  #exampleInputEmail1 {
-    display: inline-block;
-    width: 48%;
-    margin-right: 2%;
-  }
-  /* Adjusting textarea width */
-  #message {
-    width: 100%;
-  }
-}
+
+/* Media query for iPad Mini screen width range */
+
